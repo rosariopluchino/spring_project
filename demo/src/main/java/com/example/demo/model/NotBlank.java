@@ -1,4 +1,4 @@
-package com.example.demo.model2;
+package com.example.demo.model;
 
 public @interface NotBlank {
 }

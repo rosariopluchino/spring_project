@@ -1,5 +1,5 @@
-package com.example.demo.dao2;
-import com.example.demo.model2.Person;
+package com.example.demo.dao;
+import com.example.demo.model.Person;
 
 import java.util.List;
 import java.util.Optional;

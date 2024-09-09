@@ -1,18 +1,15 @@
-package com.example.demo.api2;
+package com.example.demo.api;
 
-import com.example.demo.model2.Person;
-import com.example.demo.service2.PersonService;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Validate;
+import com.example.demo.model.Person;
+import com.example.demo.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-
-import java.util.UUID;
 import java.util.List;
+import java.util.UUID;
 
-@RequestMapping("api2/v1/person")
+@RequestMapping("api/v1/person")
 @RestController
 public class PersonController {
 

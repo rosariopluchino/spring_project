@@ -1,6 +1,6 @@
-package com.example.demo.dao2;
+package com.example.demo.dao;
 
-import com.example.demo.model2.Person;
+import com.example.demo.model.Person;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
